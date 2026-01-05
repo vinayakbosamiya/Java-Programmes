@@ -3,7 +3,7 @@ package strings;
 import java.util.Scanner;
 
 
-public class vinay_20_switch_case {
+public class vinay_20_switch_case_p1 {
     static void main() {
         System.out.println("Enter your age: ");
         Scanner sc = new Scanner(System.in);
@@ -22,6 +22,8 @@ public class vinay_20_switch_case {
             case 4:
                 System.out.println("this is case 4");
                 break;
+            default:
+                System.out.println("sorry Your age is not available ! ");
         }
     }
 }
