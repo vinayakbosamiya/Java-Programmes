@@ -1,0 +1,14 @@
+-----------------------------------------------------------------------------------------------
+|    Modifier     |        Class       |        Package       |    SubClass   |  Global/World |
+--------------------------------------------------------------------------------------------- |
+|    Public       |         YES        |          YES         |      YES      |       YES     |
+|    Protected    |         YES        |          YES         |      YES      |        NO     |
+|    Default      |         YES        |          YES         |       NO      |        NO     |
+|    Private      |         YES        |           NO         |       NO      |        NO     |
+-----------------------------------------------------------------------------------------------
+
+run in terminal:
+to create package cmd Syntex:- javac -d yourpath file.javac
+
+ex:- javac -d . newPack3.java
+ex:- javac -d abc/letest newPack3.java
