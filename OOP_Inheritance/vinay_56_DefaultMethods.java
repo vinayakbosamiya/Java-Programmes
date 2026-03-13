@@ -1,10 +1,11 @@
 package OOP_Inheritance;
-
+// below camera interface if we add the new method that method must be override in chiled class if we not override (add body of method) throw error so i will use default method using default keyword
+// because default method allowed to add body at interface and that method may be override at chiled class it means not compulsory to override it means may be override at child class
 interface camera {
     void takeSnap();
     void RecordVideo();
 //    this is the default method and may be override
-    default  void video4k(){
+    default  void video4k(){ // defalt method may be override at child class
         greet();
         System.out.println("Recording 4k Video....");
     }
@@ -60,3 +61,4 @@ public class vinay_56_DefaultMethods {
         ms.video4k();
     }
 }
+
